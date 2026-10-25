@@ -20,12 +20,12 @@
             font-size: 16px;
             line-height: 1.6;
         }
-        /* 写真の大きさをスマートフォンの画面に合わせる設定です */
+        /* 写真の見た目を整える設定 */
         .profile-img {
-            max-width: 100%; /* 画面からはみ出さないようにする */
-            width: 300px;    /* 横幅を300ピクセルにする */
-            height: auto;    /* 縦横比を保つ */
-            border-radius: 10px; /* 写真の角を少し丸くする */
+            max-width: 100%; 
+            width: 300px;    
+            height: auto;    
+            border-radius: 10px; /* 角を少し丸く */
             margin: 20px 0;
         }
         .btn {
@@ -45,7 +45,7 @@
     <h1>ようこそ！私のホームページへ</h1>
     <p>iPhoneの純正アプリだけで、HTMLの編集から公開までできました！</p>
     
-    <!-- ★ここに写真を表示するタグを追加しました★ -->
+    <!-- ★ここに写真を表示するタグが入っています★ -->
     <img src="my-photo.jpg" alt="お気に入りの写真" class="profile-img">
 
     <br>
