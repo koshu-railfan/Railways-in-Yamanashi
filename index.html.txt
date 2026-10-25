@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイ・ホームページ</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f8ff;
+            color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #0066cc;
+            font-size: 28px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        /* 写真の大きさをスマートフォンの画面に合わせる設定です */
+        .profile-img {
+            max-width: 100%; /* 画面からはみ出さないようにする */
+            width: 300px;    /* 横幅を300ピクセルにする */
+            height: auto;    /* 縦横比を保つ */
+            border-radius: 10px; /* 写真の角を少し丸くする */
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ようこそ！私のホームページへ</h1>
+    <p>iPhoneの純正アプリだけで、HTMLの編集から公開までできました！</p>
+    
+    <!-- ★ここに写真を表示するタグを追加しました★ -->
+    <img src="my-photo.jpg" alt="お気に入りの写真" class="profile-img">
+
+    <br>
+    <a href="https://google.com" class="btn">Googleで検索する</a>
+
+</body>
+</html>
